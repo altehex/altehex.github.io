@@ -1,0 +1,24 @@
+
+
+div.main {
+    margin:     auto;
+    min-width:  480px;
+    overflow:   auto;
+    position:   relative;
+    width:      75%;
+}
+
+div.sidebar {
+    float:  right;
+    width:  33%;
+}
+
+div.posts {
+    width:  65%;
+}
+
+div {
+    border:     solid black 1px;
+    margin:     5px;
+    padding:    5px;
+}
