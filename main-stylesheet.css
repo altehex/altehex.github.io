@@ -1,24 +1,32 @@
 
+div.header {
+    min-width:  600px;
+    width:      75%;
+}
 
 div.main {
-    margin:     auto;
-    min-width:  480px;
+    display:    flex;
+    min-width:  600px;
     overflow:   auto;
     position:   relative;
     width:      75%;
 }
 
 div.sidebar {
-    float:  right;
-    width:  33%;
+    width:          33%;
+    margin-left:    5px;
 }
+
+
 
 div.posts {
     width:  65%;
 }
 
 div {
-    border:     solid black 1px;
-    margin:     5px;
-    padding:    5px;
+    border:         solid black 1px;
+    margin:         5px;
+    margin-left:    auto;
+    margin-right:   auto;
+    padding:        5px;
 }
